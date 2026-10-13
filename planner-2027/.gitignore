@@ -1,0 +1,4 @@
+# previews e temporários do gerador
+src/__pycache__/
+_tmp/
+*.pyc
