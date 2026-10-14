@@ -8,7 +8,10 @@ pesquisa do produto, recriação de um kit **melhor e mais completo** (PDFs com 
 | `analise/relatorio-meta-ads.md` | Relatório da pesquisa: anúncio escolhido (início **17/09/2026**, há 26 dias), concorrentes, preços, estrutura da oferta e **sugestão de preço** |
 | `produto/` | **O produto pronto** (ver abaixo) — 20 MB de PDFs/PNGs/JPGs |
 | `src/` | Código Python que gera tudo (`build_all.sh` na raiz regenera o kit em ~30 s) |
-| `vendas/` | Estratégia de vendas, copies/roteiros de anúncios Meta e **landing page** pronta (`vendas/landing/index.html`) |
+| `vendas/` | Estratégia de vendas e copies/roteiros de anúncios Meta |
+| `vendas/landing/` | **Landing page** completa (index, obrigado, termos, privacidade) — configure `assets/config.js`; instruções em `vendas/landing/README.md` |
+| `vendas/capa-produto/` | Nome, descrição (500 caracteres) e capas do produto em 4 formatos |
+| `vendas/kiwify/` | Guia passo a passo da Kiwify, ZIPs do entregável por módulo e imagens da área de membros |
 
 ## O produto (`produto/`)
 
