@@ -1,0 +1,17 @@
+# Configuração do GitHub Pages (Jekyll).
+# Publica apenas o portfólio (index.html) e a landing page do Ateliê Planner 2027.
+# Arquivos do produto, ZIPs do entregável, scripts e documentos internos NÃO vão para o site.
+title: KAYW.001
+exclude:
+  - README.md
+  - planner-2027/README.md
+  - planner-2027/build_all.sh
+  - planner-2027/.gitignore
+  - planner-2027/analise/
+  - planner-2027/produto/
+  - planner-2027/src/
+  - planner-2027/vendas/kiwify/
+  - planner-2027/vendas/capa-produto/
+  - planner-2027/vendas/estrategia-de-vendas.md
+  - planner-2027/vendas/anuncios-meta.md
+  - planner-2027/vendas/landing/README.md
