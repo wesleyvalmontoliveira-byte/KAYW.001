@@ -28,9 +28,9 @@ pixelId: "123456789012345",                      // Pixel da Meta (opcional)
 1. **Netlify Drop** (grátis, 1 minuto): acesse app.netlify.com/drop e arraste a pasta `landing` inteira. Você recebe um link `https://nome.netlify.app`.
 2. **Vercel**: `vercel deploy` dentro da pasta, ou arraste no painel.
 3. **Hospedagem própria / Hostinger**: envie a pasta por FTP para `public_html/planner2027/`.
-4. **GitHub Pages**: ative Pages no repositório (branch `main`, pasta raiz) e a página fica em `https://<usuario>.github.io/KAYW.001/planner-2027/vendas/landing/`.
+4. **GitHub Pages** (já configurado neste repositório, branch `main`): a página fica em `https://wesleyvalmontoliveira-byte.github.io/KAYW.001/planner-2027/vendas/landing/`. O arquivo `_config.yml` na raiz impede que produto, ZIPs e documentos internos sejam publicados no site.
 
-Depois de publicar, troque em `index.html` o `og:image` por um endereço absoluto (ex.: `https://seudominio.com/img/og-1200x628.jpg`) para o Facebook/WhatsApp mostrarem a prévia correta.
+O `og:image`, `og:url` e `canonical` do `index.html` já apontam para o endereço do GitHub Pages; se mudar de domínio, atualize-os.
 
 ## 3. Conecte à Kiwify
 - Produto → **URL da página de vendas**: cole o link publicado.
